@@ -6,7 +6,7 @@ import { App } from './app';
 import { HTTP_INTERCEPTORS, HttpClient, HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
 import { HttpErrorInterceptorService } from './interceptors/http-error-interceptor.service';
-import { BookModule } from './book/book-module';
+import { BookModule } from './book/book.module';
 import { EditorialModule } from './editorial/editorial-module';
 
 @NgModule({

@@ -5,10 +5,10 @@ import { BookService } from '../book.service';
 @Component({
   selector: 'app-book-list',
   standalone: false,
-  templateUrl: './book-list.html',
-  styleUrl: './book-list.css',
+  templateUrl: './book-list.component.html',
+  styleUrl: './book-list.component.css',
 })
-export class BookList implements OnInit {
+export class BookListComponent implements OnInit {
   books: Array<Book> = [];
   constructor(private bookService: BookService) {}
 
